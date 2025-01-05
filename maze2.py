@@ -37,7 +37,8 @@ def SolveMaze(maze):
 def PrintMaze(maze):
     print(maze)
     
-    
+# This is where the maze is defined
+# You can change it to fit your needs
 def main():
     maze = [
         [1, 0, 0, 0, 0, 0, 0, 0],
@@ -49,14 +50,7 @@ def main():
         [0, 0, 1, 0, 1, 1, 1, 0],
         [0, 0, 0, 0, 0, 0, 0, 1]
     ]
-    # maze = [
-    #     [1, 0],
-    #     [0, 1],
-    #     [1, 1],
-    #     [1, 0],
-    #     [1, 1]
- 
-    # ]
+
 
     PrintMaze(maze)
 
